@@ -1,0 +1,91 @@
+/* Global styles for body and html */
+body, html {
+    height: 100%; /* Full height */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    font-family: Arial, sans-serif; /* Default font */
+    background: url('../Resources/Images/background.jpg') no-repeat center center fixed; /* Full-screen background image */
+    background-size: cover; /* Cover the entire page */
+    overflow-x: hidden; /* Prevents horizontal scrolling */
+}
+
+/* Styles for the navigation bar */
+nav {
+    background-color: #333; /* Dark background color */
+    position: fixed; /* Fixed at the top */
+    width: 100%; /* Full width */
+    top: 0; /* Align to top */
+    left: 0; /* Align to left */
+    z-index: 1000; /* High z-index to keep navbar on top */
+}
+
+/* Styles for the navigation list */
+nav ul {
+    list-style-type: none; /* No bullets */
+    padding: 0; /* Remove default padding */
+    margin: 0; /* Remove default margin */
+    text-align: right; /* Aligns the list items to the right */
+}
+
+/* Styles for list items */
+nav ul li {
+    display: inline; /* Display items inline */
+}
+
+/* Styles for links within list items */
+nav ul li a {
+    display: inline-block; /* Inline block for styling */
+    color: white; /* Text color */
+    text-align: center; /* Center text */
+    padding: 10px 16px; /* Padding around text */
+    text-decoration: none; /* No underline */
+    background-color: #444; /* Button-like appearance */
+    border: none; /* No borders */
+    border-radius: 5px; /* Rounded corners */
+    margin: 0 1%; /* Margin on the sides */
+}
+
+/* Hover effect for links */
+nav ul li a:hover {
+    background-color: #555; /* Darker on hover */
+}
+
+/* Styles for the main content area */
+.content {
+    padding-top: 70px; /* Space below navbar */
+    font-size: 18px; /* Text size */
+    width: 70%; /* Width relative to parent */
+    margin-left: auto; /* Center align */
+    margin-right: auto; /* Center align */
+    margin-top: 3%; /* Margin from top */
+    margin-bottom: 3%; /* Margin from bottom */
+    position: relative; /* For z-index */
+    z-index: 2; /* Above background */
+    background-color: rgba(0, 0, 0, 0.6); /* Semi-transparent black background */
+    color: white; /* Text color */
+    border-radius: 10px; /* Rounded corners */
+    padding: 20px; /* Padding inside */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Subtle shadow */
+    overflow: auto; /* Scroll if needed */
+    margin-bottom: 20px; /* Bottom margin */
+}
+
+/* Styles for video containers */
+.video-container { 
+    display: flex; /* Use flexbox for layout */
+    justify-content: center; /* Center horizontally */
+    padding-top: 20px; /* Space above */
+}
+
+/* Styles for the footer */
+footer {
+    position:absolute;
+    margin-top: 25%;
+    bottom: 0;
+    left: 0;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    width: 100%;
+}
