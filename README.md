@@ -1,1 +1,11 @@
-This website is a mockup of a portfolio website. It includes 3 pages within in: Home/index, an "about me" page and a "contact" page. 
+Website Contents:
+
+A website mock-up that is meant to depict a portfolio website.
+Webpages are located in ./Pages/ Included:
+- Home/Index page: Contains bulk of 
+- About Page
+- Contact Page
+
+Style.css is used for formatting and is located in Styles/.
+
+Proof of Validation is located in ./Validation
