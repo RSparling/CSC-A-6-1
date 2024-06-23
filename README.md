@@ -9,3 +9,5 @@ Webpages are located in ./Pages/ Included:
 Style.css is used for formatting and is located in Styles/.
 
 Proof of Validation is located in ./Validation
+
+Screenshots are located in ./screenshots
